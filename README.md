@@ -25,11 +25,13 @@ The robotic arm’s structural parts were **3D-printed**, but the focus of this 
 
 ---
 
-## Project Files  
-| File | Description |
-|------|-------------|
-| `hand_control_gripper.py` | Python script for gesture detection & Arduino communication |
-| `openCv_HandGripper.ino`  | Arduino code to control the gripper servo |
+## Files Included
+
+- **hand_control_gripper.py** → Python script using OpenCV & MediaPipe to detect hand gestures (open/closed) and send corresponding signals to Arduino for controlling the gripper.  
+- **openCv_HandGripper.ino** → Arduino code for controlling the gripper servo motor based on commands from the Python script.  
+- **gesture_open_hand.png** → Screenshot showing the system detecting an open hand. Key points on the fingers and palm are marked with red dots, connected by white lines to form a hand skeleton for precise gesture recognition.
+- **gesture_closed_fist.png** → Screenshot showing the system detecting a closed fist. The same landmark tracking highlights finger and palm positions, enabling accurate recognition of the “grab” gesture used to control the robotic gripper.
+
 
 ---
 
