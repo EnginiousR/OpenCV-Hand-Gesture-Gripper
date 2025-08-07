@@ -31,7 +31,9 @@ The robotic arm’s structural parts were **3D-printed**, but the focus of this 
 - **openCv_HandGripper.ino** → Arduino code for controlling the gripper servo motor based on commands from the Python script.  
 - **gesture_open_hand.png** → Screenshot showing the system detecting an open hand. Key points on the fingers and palm are marked with red dots, connected by white lines to form a hand skeleton for precise gesture recognition.
 - **gesture_closed_fist.png** → Screenshot showing the system detecting a closed fist. The same landmark tracking highlights finger and palm positions, enabling accurate recognition of the “grab” gesture used to control the robotic gripper.
-
+- **closed_Robotic_Gripper.png** → Close-up image showing the robotic gripper in a fully closed position, triggered when the user makes a closed-fist gesture.
+- - **open_gripper_closeup.jpg** – Close-up image showing the 3D-printed robotic gripper in an open position, triggered when the user opens their hand in front of the camera.
+- **Robotic_arm_prototype.jpg** → Full view of the robotic arm prototype with the 3D-printed gripper mounted and wired for testing.
 
 ---
 
